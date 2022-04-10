@@ -8,10 +8,7 @@ import 'package:flutter_svg/svg.dart';
 List<Widget> images = [
   SvgPicture.asset('assets/flag.svg'),
   SvgPicture.asset('assets/flower.svg'),
-  SvgPicture.network(
-    'https://svgshare.com/i/g66.svg',
-    color: Colors.orange,
-  )
+  SvgPicture.network('https://svgshare.com/i/g66.svg', color: Colors.orange)
 ];
 
 void main() {
